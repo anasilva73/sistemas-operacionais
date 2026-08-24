@@ -9,9 +9,6 @@
 | **2006** | 🟨 **Nintendo Wii** | Wii System Software | GameCube | Evolução da arquitetura, hardware e tecnologias do GameCube |
 | **2013** | 🟦 **PlayStation 4** | **Orbis OS** | **FreeBSD** | Utiliza uma versão modificada do FreeBSD como base |
 | **2013** | 🟩 **Xbox One** | **Xbox OS** | Tecnologias Microsoft / Windows | Aproveita tecnologias e componentes relacionados ao ecossistema Windows |
-| **2017** | 🟥 **Nintendo Switch** | **Horizon OS** | Tecnologia proprietária Nintendo | Evolução das tecnologias e estruturas desenvolvidas nas gerações anteriores da Nintendo |
+| **2017** | 🟥 **Nintendo Switch** | **Horizon OS** | Tecnologia proprietária Nintendo | Evolução das tecnologias e estruturas desenvolvidas nas gerações anteriores da Nintendo 
 
----
-
-
-                          Xbox One
+                          
