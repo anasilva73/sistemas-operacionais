@@ -1,6 +1,11 @@
-# 🖥️ Formatação e Instalação de um Sistema Operacional Windows
+# 🖥️ **Formatação e Instalação do Windows**
 
-## 1. Introdução
+> 📚 **Atividade de Sistemas Operacionais**
+> 💻 Tema: Formatação, instalação e arquitetura do Windows
+
+---
+
+## 📌 1. Introdução
 
 A formatação e a instalação do Windows são processos que envolvem diversas partes de um Sistema Operacional e do hardware do computador. Não se trata apenas de apagar os arquivos antigos e copiar novos arquivos, pois durante o processo existem atividades relacionadas ao **kernel, gerenciamento de memória, processos, threads, sistema de arquivos, entrada e saída de dados e drivers**.
 
@@ -8,7 +13,7 @@ Neste trabalho será apresentado o processo desde a inicialização do computado
 
 ---
 
-# 2. Descrição do Processo de Formatação e Instalação
+# ⚙️ 2. Processo de Formatação e Instalação
 
 Antes de iniciar a instalação, é necessário preparar uma mídia de instalação, normalmente um **pendrive bootável** contendo os arquivos do Windows.
 
@@ -26,27 +31,27 @@ Finalmente, o Windows inicia normalmente e fica disponível para instalação de
 
 ---
 
-# 3. Componentes do Sistema Operacional
+# 🧩 3. Componentes do Sistema Operacional
 
 Durante a instalação, diversos componentes do Sistema Operacional trabalham em conjunto.
 
-### Gerenciamento de processos
+### 🔄 Gerenciamento de processos
 
 O Sistema Operacional controla os programas que estão sendo executados. Durante a instalação existem processos responsáveis pela interface, cópia de arquivos, configuração do sistema e comunicação com dispositivos.
 
-### Gerenciamento de memória
+### 🧠 Gerenciamento de memória
 
 O sistema precisa controlar a memória RAM para que os diferentes processos tenham espaço para executar suas atividades sem interferirem indevidamente uns nos outros.
 
-### Sistema de arquivos
+### 📁 Sistema de arquivos
 
 É responsável por organizar os arquivos e diretórios armazenados no SSD ou HD. Durante a instalação, ele participa da criação das estruturas necessárias para armazenar o Windows.
 
-### Gerenciamento de entrada e saída
+### 🔌 Gerenciamento de entrada e saída
 
 Controla a comunicação entre o computador e dispositivos como teclado, mouse, armazenamento, monitor e rede.
 
-### Drivers
+### 🛠️ Drivers
 
 Os drivers permitem que o Sistema Operacional se comunique corretamente com diferentes componentes de hardware.
 
@@ -54,7 +59,7 @@ Todos esses componentes são importantes porque o computador precisa administrar
 
 ---
 
-# 4. Kernel: O Núcleo do Sistema
+# 🧠 4. Kernel — O Núcleo do Sistema
 
 O **kernel** é uma das partes mais importantes do Sistema Operacional. Ele funciona como uma camada fundamental entre os programas e o hardware.
 
@@ -75,17 +80,17 @@ O kernel é importante porque impede que cada programa controle livremente os re
 
 ---
 
-# 5. Modos de Execução
+# 🔐 5. Modos de Execução
 
 Os sistemas operacionais modernos utilizam diferentes níveis de privilégio para proteger o computador.
 
-## Modo Usuário
+### 👤 Modo Usuário
 
 O **modo usuário** é utilizado pela maioria dos programas e aplicações. Nesse modo, os programas possuem acesso limitado aos recursos do computador.
 
 Por exemplo, uma aplicação não pode simplesmente acessar diretamente qualquer endereço de memória ou enviar comandos arbitrários para um dispositivo.
 
-## Modo Kernel
+### ⚡ Modo Kernel
 
 O **modo kernel** possui privilégios muito maiores. O kernel pode realizar operações fundamentais relacionadas ao hardware e aos recursos do sistema.
 
@@ -101,7 +106,7 @@ A separação entre os modos é importante porque evita que um programa com erro
 
 ---
 
-# 6. Processos
+# 🔄 6. Processos
 
 Um **processo** é um programa em execução, juntamente com os recursos e informações necessários para que ele possa funcionar.
 
@@ -123,23 +128,23 @@ Isso permite que várias atividades aconteçam de maneira organizada.
 
 ---
 
-# 7. Programa × Processo × Thread
+# 🧵 7. Programa × Processo × Thread
 
 Esses três conceitos são relacionados, mas não significam a mesma coisa.
 
-### Programa
+### 📦 Programa
 
 Um **programa** é um conjunto de instruções armazenadas que pode ser executado.
 
 Por exemplo, o instalador do Windows pode ser considerado um programa.
 
-### Processo
+### ▶️ Processo
 
 Quando esse programa é carregado na memória e começa a ser executado, ele passa a representar um **processo**.
 
 O processo possui informações próprias, como espaço de memória, recursos utilizados e estado de execução.
 
-### Thread
+### 🧵 Thread
 
 Uma **thread** é uma unidade de execução dentro de um processo.
 
@@ -159,7 +164,7 @@ A utilização de múltiplas threads pode aumentar a eficiência porque diferent
 
 ---
 
-# 8. Sistema de Arquivos
+# 💾 8. Sistema de Arquivos
 
 O sistema de arquivos é responsável pela organização dos dados armazenados em dispositivos como SSDs e HDs.
 
@@ -167,17 +172,17 @@ Durante uma instalação limpa do Windows, pode ser necessário modificar as par
 
 É importante diferenciar três operações:
 
-### Apagar dados
+### 🗑️ Apagar dados
 
 Significa remover arquivos ou informações existentes. Dependendo do método utilizado, os dados podem ou não ser completamente sobrescritos imediatamente.
 
-### Particionar
+### 🧱 Particionar
 
 Significa dividir logicamente uma unidade de armazenamento em uma ou mais partes chamadas **partições**.
 
 Uma unidade física pode possuir várias partições.
 
-### Formatar
+### 💿 Formatar
 
 Significa preparar uma partição para utilizar determinado sistema de arquivos, criando as estruturas necessárias para organizar os dados.
 
@@ -191,7 +196,7 @@ Também são criadas estruturas necessárias para a inicialização do sistema, 
 
 ---
 
-# 9. Entrada/Saída e Drivers de Dispositivos
+# 🔌 9. Entrada/Saída e Drivers
 
 Durante a instalação, vários dispositivos de entrada e saída são utilizados.
 
@@ -217,9 +222,9 @@ Depois da instalação, o Windows pode instalar drivers adicionais automaticamen
 
 ---
 
-# 10. Linha do Tempo da Instalação
+# 🕒 10. Linha do Tempo da Instalação
 
-## 1. Inicialização
+### 1️⃣ Inicialização
 
 O computador é ligado e o firmware UEFI/BIOS inicializa os componentes básicos e procura um dispositivo de inicialização.
 
@@ -229,7 +234,7 @@ O computador é ligado e o firmware UEFI/BIOS inicializa os componentes básicos
 
 ---
 
-## 2. Inicialização do instalador
+### 2️⃣ Inicialização do instalador
 
 O computador inicia o ambiente de instalação do Windows a partir do pendrive.
 
@@ -239,7 +244,7 @@ O computador inicia o ambiente de instalação do Windows a partir do pendrive.
 
 ---
 
-## 3. Reconhecimento do hardware
+### 3️⃣ Reconhecimento do hardware
 
 O instalador identifica componentes como armazenamento, memória, processador, teclado, mouse e monitor.
 
@@ -249,7 +254,7 @@ O instalador identifica componentes como armazenamento, memória, processador, t
 
 ---
 
-## 4. Seleção da unidade
+### 4️⃣ Seleção da unidade
 
 O usuário escolhe o SSD ou HD onde o Windows será instalado.
 
@@ -259,7 +264,7 @@ O usuário escolhe o SSD ou HD onde o Windows será instalado.
 
 ---
 
-## 5. Particionamento/Formatação
+### 5️⃣ Particionamento / Formatação
 
 As partições podem ser criadas, excluídas ou formatadas de acordo com o tipo de instalação.
 
@@ -269,7 +274,7 @@ As partições podem ser criadas, excluídas ou formatadas de acordo com o tipo 
 
 ---
 
-## 6. Cópia dos arquivos
+### 6️⃣ Cópia dos arquivos
 
 Os arquivos necessários são copiados da mídia de instalação para o armazenamento.
 
@@ -279,7 +284,7 @@ Os arquivos necessários são copiados da mídia de instalação para o armazena
 
 ---
 
-## 7. Instalação do Windows
+### 7️⃣ Instalação do Windows
 
 O instalador configura os componentes do sistema operacional e prepara o ambiente para a primeira inicialização.
 
@@ -289,7 +294,7 @@ O instalador configura os componentes do sistema operacional e prepara o ambient
 
 ---
 
-## 8. Instalação/configuração de drivers
+### 8️⃣ Instalação e configuração de drivers
 
 O Windows instala ou configura drivers necessários para os dispositivos.
 
@@ -299,7 +304,7 @@ O Windows instala ou configura drivers necessários para os dispositivos.
 
 ---
 
-## 9. Inicialização do sistema
+### 9️⃣ Inicialização do sistema
 
 O computador reinicia e passa a inicializar o Windows instalado no SSD ou HD.
 
@@ -309,7 +314,7 @@ O computador reinicia e passa a inicializar o Windows instalado no SSD ou HD.
 
 ---
 
-## 10. Windows pronto para utilização
+### 🔟 Windows pronto para utilização
 
 O usuário realiza as configurações iniciais e chega à área de trabalho.
 
@@ -319,7 +324,7 @@ O usuário realiza as configurações iniciais e chega à área de trabalho.
 
 ---
 
-# 11. Tabela Resumida
+# 📊 11. Tabela Resumida
 
 | Etapa              | O que acontece?                         | Conceito envolvido     | Por que é importante?            |
 | ------------------ | --------------------------------------- | ---------------------- | -------------------------------- |
@@ -336,7 +341,7 @@ O usuário realiza as configurações iniciais e chega à área de trabalho.
 
 ---
 
-# 12. Relação Entre os Conceitos
+# 🔗 12. Relação Entre os Conceitos
 
 Os conceitos estudados não funcionam de maneira isolada.
 
@@ -352,7 +357,7 @@ Assim, a instalação do Windows é um exemplo prático de como diferentes parte
 
 ---
 
-# 13. Desafio Final
+# 🧩 13. Desafio Final
 
 ## Se não existisse um Sistema Operacional, quais partes desse processo precisariam ser realizadas diretamente pelo usuário ou pelos programas?
 
@@ -368,7 +373,7 @@ O Sistema Operacional existe justamente para fornecer uma camada de abstração 
 
 ---
 
-# 14. Qual conceito é mais importante?
+# 🎯 14. Qual conceito é mais importante?
 
 Considero o **kernel** um dos conceitos mais importantes para transformar um conjunto de componentes de hardware em um sistema capaz de executar aplicações.
 
@@ -382,7 +387,7 @@ Por isso, embora todos os conceitos sejam importantes e trabalhem em conjunto, o
 
 ---
 
-# 15. Conclusão
+# ✅ 15. Conclusão
 
 A formatação e instalação do Windows demonstram na prática diversos conceitos da arquitetura de Sistemas Operacionais.
 
@@ -393,4 +398,3 @@ A instalação não consiste apenas em copiar arquivos. O Sistema Operacional pr
 Portanto, o processo demonstra claramente a relação entre **hardware, software e Sistema Operacional**. O Windows atua como uma camada fundamental que permite que o usuário e os aplicativos utilizem os recursos do computador de maneira organizada, segura e eficiente.
 
 > **Questão central:** Ao formatar e instalar o Windows, o Sistema Operacional está trabalhando no gerenciamento do hardware, dos processos, da memória, dos arquivos, dos dispositivos de entrada e saída e dos recursos necessários para transformar o computador em uma plataforma capaz de executar aplicações.
-
