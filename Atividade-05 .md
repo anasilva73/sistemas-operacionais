@@ -1,92 +1,118 @@
+Claro — abaixo está uma versão em Markdown (.md) mais organizada e bonita, pronta para colocar no GitHub ou entregar na atividade.
+
 # 🎮 Linha do Tempo — Evolução dos Sistemas Operacionais de Consoles
 
-> Evolução dos sistemas, firmwares, kernels e arquiteturas utilizados em diferentes gerações de consoles.
+> 📚 **Tema:** Sistemas Operacionais desenvolvidos a partir de outros sistemas, kernels, arquiteturas ou estruturas existentes.
 
 ---
 
-## 🟫 1977 — Atari 2600
+## 🕐 Visão Geral
+
+Os sistemas operacionais utilizados em consoles geralmente não são desenvolvidos completamente do zero.  
+Muitos aproveitam **kernels, arquiteturas, bibliotecas, tecnologias ou estruturas de sistemas operacionais anteriores**.
+
+Alguns exemplos importantes são:
+
+- 🎮 **PlayStation 4** → Orbis OS → baseado no **FreeBSD**
+- 🟩 **Xbox One** → Xbox OS → utiliza tecnologias relacionadas ao **Windows**
+- 🟥 **Nintendo Switch** → Horizon → sistema proprietário da Nintendo
+- 🟨 **Nintendo Wii** → Wii System Software → evolução da plataforma do **GameCube**
+
+---
+
+# 🗓️ Linha do Tempo
 
 ```text
-┌──────────────────────┐
-│      Atari 2600      │
-│        (1977)        │
-└──────────┬───────────┘
+                    EVOLUÇÃO DOS SISTEMAS
+                     OPERACIONAIS DE CONSOLES
+
+      UNIX / BSD
+          │
+          ▼
+      ┌─────────┐
+      │ FreeBSD │
+      └────┬────┘
            │
-           ▼
-   Firmware / Hardware
            │
-           ▼
-      Jogos em ROM
-
-O Atari 2600, lançado em 1977, não possuía um sistema operacional completo como os consoles modernos.
-
-Seu funcionamento era baseado principalmente em:
-
-Firmware;
-Hardware dedicado;
-Cartuchos contendo os jogos;
-Processador MOS 6507;
-Memória extremamente limitada.
-
-Os jogos eram executados diretamente sobre o hardware do console.
-
-💡 Importante: o Atari 2600 é um exemplo de uma época em que consoles normalmente não precisavam de um sistema operacional completo.
-
-🟫 1982 — Atari 5200
-Atari 400/800
-      │
-      │ Tecnologias e arquitetura
-      ▼
-  Atari 5200
-      │
-      ▼
-Sistema proprietário
-
-O Atari 5200 utilizava tecnologias relacionadas à família de computadores Atari 400/800.
-
-Isso demonstra uma reutilização de arquitetura e componentes tecnológicos entre plataformas da própria Atari.
-
-🟫 1986 — Atari 7800
-Atari 2600
-     │
-     │ Experiência e compatibilidade
-     ▼
-Atari 7800
-     │
-     ▼
-Sistema proprietário
-
-O Atari 7800 continuou a evolução da plataforma Atari e possuía compatibilidade com jogos do Atari 2600.
-
-Porém, assim como seus antecessores, não utilizava um sistema operacional moderno.
-
-🟨 2001 — Nintendo GameCube
-Nintendo GameCube
-       │
-       │ Base tecnológica
-       ▼
-Sistema proprietário
-
-O GameCube utilizava um sistema proprietário desenvolvido pela Nintendo.
-
-Sua arquitetura serviu como base tecnológica para o desenvolvimento do Nintendo Wii.
-
+           ├──────────────────────────┐
+           │                          │
+           ▼                          │
+     🎮 PlayStation 4                 │
+        2013                          │
+           │                          │
+       Orbis OS                       │
+           │                          │
+      Baseado em                      │
+       FreeBSD                        │
+                                      │
+                                      │
+Microsoft / Windows                  │
+           │                          │
+           ▼                          │
+      Xbox OS                         │
+           │                          │
+           ▼                          │
+     🎮 Xbox One                      │
+        2013                          │
+                                      │
+                                      │
+Nintendo GameCube                    │
+           │                          │
+           ▼                          │
+      🎮 Wii                          │
+        2006                          │
+           │                          │
+     Wii System                      │
+       Software                      │
+           │                          │
+           ▼                          │
+      Wii U                           │
+           │                          │
+           ▼                          │
+ Nintendo Switch                      │
+        2017                          │
+           │                          │
+       Horizon                         │
+        OS                             │
 🟨 2006 — Nintendo Wii
+🎮 Nintendo Wii
+
+O Nintendo Wii foi lançado em 2006 e possui uma forte relação tecnológica com o seu antecessor, o Nintendo GameCube.
+
+A Nintendo aproveitou conceitos e tecnologias da plataforma anterior para desenvolver o Wii.
+
+Evolução
 Nintendo GameCube
-       │
-       │ Evolução da arquitetura,
-       │ hardware e software
-       ▼
-Nintendo Wii
-       │
-       ▼
+        │
+        │ Evolução da arquitetura
+        │ e tecnologias
+        ▼
+      Nintendo Wii
+        │
+        ▼
 Wii System Software
+🔧 Relação com o sistema anterior
 
-O Wii aproveitou tecnologias e conceitos da plataforma do GameCube.
+O Wii não utiliza simplesmente o mesmo sistema operacional do GameCube.
 
-⚠️ A relação não significa que o Wii simplesmente utilize o mesmo sistema operacional do GameCube. Trata-se principalmente de uma evolução de arquitetura e tecnologia.
+A relação ocorre principalmente através da:
+
+Arquitetura de hardware;
+Tecnologias de software;
+Estrutura do sistema;
+Compatibilidade com jogos do GameCube;
+Evolução da plataforma anterior.
+
+💡 Importante: nesse caso, é mais correto falar em evolução de arquitetura e tecnologia do que afirmar que o Wii OS é diretamente baseado no sistema operacional do GameCube.
 
 🟦 2013 — PlayStation 4
+🎮 PlayStation 4
+
+O PlayStation 4 foi lançado em 2013 e apresenta um dos exemplos mais claros de utilização de uma base de sistema operacional existente.
+
+Seu sistema operacional é conhecido como Orbis OS.
+
+Evolução
 UNIX
  │
  ▼
@@ -95,110 +121,145 @@ BSD
  ▼
 FreeBSD
  │
- │ Base / código adaptado
  ▼
 Orbis OS
  │
  ▼
 🎮 PlayStation 4
+🧩 Relação com o FreeBSD
 
-O Orbis OS, utilizado no PlayStation 4, foi desenvolvido utilizando uma versão modificada do FreeBSD.
+O Orbis OS foi desenvolvido utilizando uma versão modificada do FreeBSD.
 
-Esse é um dos exemplos mais claros de um console moderno utilizando a base de um sistema operacional existente.
+Portanto:
 
+FreeBSD
+   │
+   │ Base
+   ▼
+Orbis OS
+   │
+   ▼
+PlayStation 4
+
+Isso significa que o sistema do PS4 aproveita uma base tecnológica que já existia, sendo modificada e adaptada pela Sony para atender às necessidades do console.
+
+📌 Resumo
+Item	Informação
+🎮 Console	PlayStation 4
+📅 Lançamento	2013
+💻 Sistema	Orbis OS
+🧩 Base	FreeBSD
+🏗️ Tipo de relação	Sistema baseado em outro sistema
 🟩 2013 — Xbox One
-Windows
-   │
-   │ Tecnologias e componentes
-   │ compartilhados/adaptados
-   ▼
-Xbox OS
-   │
-   ▼
 🎮 Xbox One
 
-O Xbox One utiliza um sistema operacional próprio da Microsoft.
+O Xbox One também foi lançado em 2013.
 
-Sua arquitetura aproveita tecnologias relacionadas ao Windows, mas o Xbox OS não é simplesmente uma versão comum do Windows para computadores.
+A Microsoft seguiu um caminho diferente do PlayStation 4. Em vez de utilizar diretamente uma distribuição Unix/BSD, o Xbox One utiliza uma arquitetura de sistema operacional desenvolvida pela própria Microsoft.
 
+Essa arquitetura possui forte relação com tecnologias utilizadas no Windows.
+
+Evolução
+MS-DOS
+   │
+   ▼
+Windows
+   │
+   ├───────────────┐
+   │               │
+   ▼               ▼
+Windows        Xbox 360 OS
+   │               │
+   └───────┬───────┘
+           ▼
+      Xbox One OS
+           │
+           ▼
+      🎮 Xbox One
+🧩 Relação com o Windows
+
+O Xbox One não é simplesmente uma versão comum do Windows instalada em um computador.
+
+A Microsoft desenvolveu uma versão específica para o console, aproveitando tecnologias e componentes relacionados ao ecossistema Windows.
+
+Entre as características estão:
+
+Tecnologias derivadas do Windows;
+Arquitetura desenvolvida pela Microsoft;
+Componentes compartilhados entre plataformas;
+Sistema otimizado para jogos;
+Gerenciamento específico dos recursos do console.
+📌 Resumo
+Item	Informação
+🎮 Console	Xbox One
+📅 Lançamento	2013
+💻 Sistema	Xbox OS
+🏢 Desenvolvedora	Microsoft
+🧩 Relação	Tecnologias e arquitetura relacionadas ao Windows
 🟥 2017 — Nintendo Switch
+🎮 Nintendo Switch
+
+O Nintendo Switch foi lançado em 2017.
+
+Seu sistema operacional é proprietário e foi desenvolvido pela Nintendo para o hardware do Switch. Ele é conhecido internamente como Horizon.
+
+Evolução da plataforma Nintendo
 Nintendo GameCube
-       │
-       ▼
-      Wii
-       │
-       ▼
-     Wii U
-       │
-       │ Evolução das tecnologias
-       │ e experiência da Nintendo
-       ▼
+        │
+        ▼
+       Wii
+        │
+        ▼
+      Wii U
+        │
+        ▼
 Nintendo Switch
-       │
-       ▼
+        │
+        ▼
    Horizon OS
+🧩 Relação com sistemas anteriores
 
-O Nintendo Switch utiliza um sistema operacional proprietário conhecido como Horizon.
+Diferentemente do PlayStation 4, não é correto dizer que o Horizon OS é simplesmente uma versão modificada do sistema operacional do Wii U.
 
-O Horizon não é simplesmente uma versão do sistema operacional do Wii U. A relação está principalmente na evolução das tecnologias, arquiteturas e estruturas de software da Nintendo.
+A relação está principalmente na evolução das:
 
-🌳 Visão Geral da Evolução
-                         CONSOLES ANTIGOS
+Tecnologias da Nintendo;
+Arquiteturas de hardware;
+Ferramentas de desenvolvimento;
+Estruturas de software;
+Experiência adquirida com consoles anteriores.
+
+Portanto, o Switch representa uma evolução da plataforma Nintendo, mas possui um sistema operacional próprio.
+
+📌 Resumo
+Item	Informação
+🎮 Console	Nintendo Switch
+📅 Lançamento	2017
+💻 Sistema	Horizon
+🏢 Desenvolvedora	Nintendo
+🧩 Relação	Evolução das tecnologias e plataformas Nintendo
+📊 Comparação dos Sistemas
+Console	Ano	Sistema Operacional	Base / Relação
+🟨 Nintendo Wii	2006	Wii System Software	Evolução da plataforma GameCube
+🟦 PlayStation 4	2013	Orbis OS	Baseado no FreeBSD
+🟩 Xbox One	2013	Xbox OS	Tecnologias relacionadas ao Windows
+🟥 Nintendo Switch	2017	Horizon	Sistema proprietário da Nintendo
+🌳 Árvore de Evolução
+                         SISTEMAS ANTERIORES
                                 │
-              ┌─────────────────┴─────────────────┐
-              │                                   │
-              ▼                                   ▼
-        🟫 Atari 2600                         🟨 GameCube
-             │                                    │
-             ▼                                    ▼
-        🟫 Atari 5200                            Wii
-             │                                    │
-             ▼                                    ▼
-        🟫 Atari 7800                           Wii U
-                                                  │
-                                                  ▼
-                                             Nintendo Switch
-                                                  │
-                                                  ▼
-                                             Horizon OS
-
-
-                         SISTEMAS UNIX
-                              │
-                              ▼
-                             BSD
-                              │
-                              ▼
-                           FreeBSD
-                              │
-                              ▼
-                          Orbis OS
-                              │
-                              ▼
-                       🎮 PlayStation 4
-
-
-                         MICROSOFT
-                              │
-                              ▼
-                           Windows
-                              │
-                              ▼
-                        Tecnologias
-                         Microsoft
-                              │
-                              ▼
-                           Xbox OS
-                              │
-                              ▼
-                         🎮 Xbox One
-📅 Resumo Cronológico
-Ano	Console	Sistema / Firmware	Base ou relação
-🟫 1977	Atari 2600	Firmware / sistema embarcado	Hardware dedicado e jogos em ROM
-🟫 1982	Atari 5200	Sistema proprietário	Tecnologias relacionadas ao Atari 400/800
-🟫 1986	Atari 7800	Sistema proprietário	Evolução da plataforma Atari
-🟨 2001	Nintendo GameCube	Sistema proprietário	Base tecnológica para o Wii
-🟨 2006	Nintendo Wii	Wii System Software	Evolução do GameCube
-🟦 2013	PlayStation 4	Orbis OS	Baseado no FreeBSD
-🟩 2013	Xbox One	Xbox OS	Tecnologias relacionadas ao Windows
-🟥 2017	Nintendo Switch	Horizon OS	Evolução das tecnologias da Nintendo
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+           UNIX               Windows          GameCube
+             │                  │                  │
+             ▼                  │                  ▼
+            BSD                 │                 Wii
+             │                  │                  │
+             ▼                  │                  ▼
+          FreeBSD               │                Wii U
+             │                  │                  │
+             ▼                  ▼                  ▼
+        Orbis OS           Xbox One OS       Nintendo Switch
+             │                  │                  │
+             ▼                  ▼                  ▼
+       PlayStation 4         Xbox One        Horizon OS
