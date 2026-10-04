@@ -1,9 +1,5 @@
 # 🖥 Resumo de Aula: Estrutura e Arquitetura de Sistemas Operacionais
 
-**Instituição:** Fatec - Faculdade de Tecnologia
-**Disciplina:** Sistemas Operacionais
-**Professor:** Prof. Me. Deivison S. Takatu. 
-
 ---
 
 ## 💻 Importância do Sistema Operacional (SO)
