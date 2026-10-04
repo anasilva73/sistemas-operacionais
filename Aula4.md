@@ -1,7 +1,5 @@
 # 🖥 Resumo de Aula: Estrutura e Arquitetura de Sistemas Operacionais
 
----
-
 ## 💻 Importância do Sistema Operacional (SO)
 
 O Sistema Operacional atua como uma **camada de abstração** entre as aplicações do usuário e o hardware do sistema. 
