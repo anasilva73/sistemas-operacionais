@@ -1,11 +1,5 @@
 # 🖥️ Resumo da Aula: Evolução Histórica dos Sistemas Operacionais
 
-**Instituição:** Fatec - Faculdade de Tecnologia
-**Disciplina:** Sistemas Operacionais
-**Professor:** Prof. Me. Deivison S. Takatu
-
----
-
 ## 📖 Introdução
 Os **Sistemas Operacionais (SOs)** atuam como intermediários entre o usuário e o hardware, com o propósito fundamental de simplificar o uso dos computadores. Ao longo da história, eles evoluíram continuamente para dar suporte aos avanços tecnológicos e às novas formas de utilização dos sistemas computacionais.
 
@@ -528,6 +522,3 @@ timeline
         Software : Sistemas móveis (Android, iOS) : Computação em nuvem : Virtualização e Contêineres (Docker/Kubernetes) : Sistemas de Tempo Real (RTOS)
 ```
 ---
-
-## 📚 Referências Bibliográficas.
-* **TANENBAUM, Andrew S.; BOS, Herbert.** *Sistemas Operacionais Modernos*. 4. ed. São Paulo: Pearson, 2016.
