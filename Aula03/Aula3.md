@@ -1,11 +1,5 @@
 # 🖥 Resumo da Aula: Conceitos, Funções e Tipos de Sistemas Operacionais
 
-**Instituição:** Fatec - Faculdade de Tecnologia
-**Disciplina:** Sistemas Operacionais
-**Professor:** Prof. Me. Deivison S. Takatu
-
----
-
 ## 💻 Tipos de Sistemas Operacionais
 
 ### 🏢 Sistemas de Grande Porte (Mainframes)
@@ -271,10 +265,3 @@ Teste de um mini repositório descrevendo a teoria do Big Bang.
 | **`LICENSE`** | Licença de código aberto (GPL-3.0). |
 
 ---
-
-## 📚 Referências
-
-* TANENBAUM, A. S.; BOS, H. **Sistemas Operacionais Modernos**. 4. ed. Pearson, 2016.
-* SILBERSCHATZ, A.; GALVIN, P. B.; GAGNE, G. **Fundamentos de Sistemas Operacionais**. 9. ed. LTC, 2015.
-* STALLINGS, W. **Sistemas Operacionais: Conceitos e Projetos**. 8. ed. Pearson, 2015.
-* DENARDIN, G. W.; BARRIQUELLO, C. H. **Sistemas Operacionais de Tempo Real e sua Aplicação em Sistemas Embarcados**. Editora da UFRGS, 2014.
